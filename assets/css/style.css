@@ -22,3 +22,42 @@ body{
     margin: 0px auto;
     box-shadow: 0px 0px;
 }
+#header{
+    height: 145px #f0f0f0;
+    border: 1px solid yellow;
+
+}
+#logo{
+    padding: 20px;
+    margin-left: 20px;
+    float: left;
+}
+#logo img{
+    float: left;
+    height: 100px;
+}
+#menu{
+    clear: both;
+    background: #222;
+    height: 55px;
+    border-bottom: 4px solid #01b1a5;
+}
+#menu ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    margin-left:25px ;
+}   
+#menu ul li{
+    line-height: 55px ;
+    float: left;
+    border-right: 1px solid #452;
+}
+#menu a{
+    display: block;
+    color: red;
+    text-decoration: none;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
